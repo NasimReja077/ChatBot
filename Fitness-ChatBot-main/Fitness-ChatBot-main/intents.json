@@ -1,0 +1,1648 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day",
+        "What's up?",
+        "How are you?",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hey there! 😊 How can I assist you on your fitness journey today?",
+        "Hi! Ask me about workouts, nutrition, or anything fitness-related.",
+        "Hello! I'm here to help you stay healthy and motivated."
+      ]
+    },
+    {
+      "tag": "weekly_routine_home",
+      "patterns": [
+        "Can you provide a weekly home workout routine?",
+        "What should my weekly exercise plan look like at home?",
+        "Suggest a home-based workout schedule.",
+        "How can I plan a week's workout at home?",
+        "I need a weekly exercise plan without equipment."
+      ],
+      "responses": [
+        "Here's a weekly home workout plan: \nDay 1: Full-body HIIT\nDay 2: Core Strengthening\nDay 3: Rest or Light Stretching\nDay 4: Upper Body Strength\nDay 5: Cardio (Skipping or Running in Place)\nDay 6: Lower Body Workout\nDay 7: Yoga or Active Recovery."
+      ]
+    },
+    {
+      "tag": "weekly_routine_gym",
+      "patterns": [
+        "What does a weekly gym routine look like?",
+        "Can you help me plan a gym workout schedule?",
+        "Suggest a weekly exercise plan for gym training.",
+        "How should I divide my gym sessions for the week?",
+        "I want a weekly gym workout routine. Can you help?"
+      ],
+      "responses": [
+        "Here's a weekly gym routine: \nDay 1: Chest and Triceps\nDay 2: Back and Biceps\nDay 3: Rest or Light Cardio\nDay 4: Legs and Abs\nDay 5: Shoulders and Arms\nDay 6: Cardio or Circuit Training\nDay 7: Rest or Active Recovery."
+      ]
+    },
+    {
+      "tag": "weekly_routine_strength",
+      "patterns": [
+        "What is a weekly routine for strength training?",
+        "How can I plan my week for strength improvement?",
+        "Suggest a weekly schedule for building strength.",
+        "Can you provide a strength-focused weekly workout?",
+        "How should I train for strength across the week?"
+      ],
+      "responses": [
+        "Weekly strength routine: \nDay 1: Deadlifts and Core\nDay 2: Squats and Lunges\nDay 3: Rest or Light Cardio\nDay 4: Bench Press and Push-ups\nDay 5: Pull-ups and Rows\nDay 6: Powerlifting or Functional Training\nDay 7: Stretching and Mobility Work."
+      ]
+    },
+    {
+      "tag": "weekly_routine_endurance",
+      "patterns": [
+        "What should a weekly endurance routine include?",
+        "How do I plan my week for better stamina?",
+        "Can you help with a weekly plan for endurance?",
+        "What is a good endurance workout schedule for the week?",
+        "Suggest a weekly routine to boost cardiovascular fitness."
+      ],
+      "responses": [
+        "Weekly endurance routine: \nDay 1: 30-minute Jog or Run\nDay 2: Interval Training (HIIT)\nDay 3: Rest or Light Yoga\nDay 4: Long-distance Running or Cycling\nDay 5: Cardio Circuit (Burpees, Jumping Jacks)\nDay 6: Swimming or Rowing\nDay 7: Rest or Active Recovery."
+      ]
+    },
+    {
+      "tag": "weekly_routine_bodybuilding",
+      "patterns": [
+        "How do I plan a bodybuilding workout for the week?",
+        "Can you suggest a weekly bodybuilding routine?",
+        "What does a bodybuilding weekly schedule look like?",
+        "How should I divide my week for muscle building?",
+        "Provide a weekly routine for bodybuilding."
+      ],
+      "responses": [
+        "Bodybuilding weekly routine: \nDay 1: Chest and Triceps\nDay 2: Back and Biceps\nDay 3: Rest or Light Cardio\nDay 4: Shoulders and Abs\nDay 5: Legs and Glutes\nDay 6: Full-body Workout\nDay 7: Rest or Active Recovery."
+      ]
+    },
+    {
+      "tag": "strength",
+      "patterns": [
+        "How can I improve my strength?",
+        "What exercises are best for strength training?",
+        "Can you guide me on building muscle strength?",
+        "What should I do to get stronger?"
+      ],
+      "responses": [
+        "For building strength, focus on compound movements like deadlifts, squats, and bench presses with heavy weights and lower reps.",
+        "Strength training is best achieved with progressive overload. Would you like me to create a detailed plan for you?"
+      ]
+    },
+    {
+      "tag": "endurance",
+      "patterns": [
+        "How do I increase my stamina?",
+        "What exercises can improve endurance?",
+        "Can you guide me on building cardiovascular endurance?",
+        "I want to work on my overall stamina. Suggestions?",
+        "What should I do to last longer in workouts?"
+      ],
+      "responses": [
+        "Endurance can be improved with consistent cardio activities like running, cycling, or swimming combined with interval training.",
+        "For better stamina, include activities like jogging, circuit training, or high-rep bodyweight exercises in your routine."
+      ]
+    },
+    {
+      "tag": "weight_loss",
+      "patterns": [
+        "How do I lose weight effectively?",
+        "Can you suggest workouts for weight loss?",
+        "What is the best way to burn fat?",
+        "I want to shed some pounds. Help me!",
+        "What exercises are good for losing weight?"
+      ],
+      "responses": [
+        "For weight loss, combine high-intensity interval training (HIIT) with strength training and maintain a calorie deficit.",
+        "Cardio, strength training, and a balanced diet can help you lose weight effectively. Would you like a sample plan?"
+      ]
+    },
+    {
+      "tag": "weight_gain",
+      "patterns": [
+        "How can I gain weight healthily?",
+        "What exercises help with weight gain?",
+        "I want to build muscle and gain weight. Suggestions?",
+        "What is the best way to bulk up?",
+        "Can you guide me on gaining healthy weight?"
+      ],
+      "responses": [
+        "To gain weight, focus on strength training with compound exercises and ensure you're eating in a calorie surplus.",
+        "Building muscle mass through resistance training and consuming protein-rich meals will help with healthy weight gain."
+      ]
+    },
+    {
+      "tag": "training_from_gym",
+      "patterns": [
+        "What workouts can I do in the gym?",
+        "Can you suggest a gym training routine?",
+        "How should I train if I go to the gym?",
+        "What equipment should I use at the gym?",
+        "Give me a gym-based workout plan."
+      ],
+      "responses": [
+        "At the gym, you can use free weights, machines, and cables to target different muscle groups. Would you like a plan for strength or endurance?",
+        "Gym training allows for a variety of exercises like bench presses, deadlifts, and lat pulldowns. Let me know your goals to customize it."
+      ]
+    },
+    {
+      "tag": "training_from_home",
+      "patterns": [
+        "How can I train at home?",
+        "What are some home workout routines?",
+        "Can you suggest exercises without equipment?",
+        "How do I stay fit while working out at home?",
+        "What bodyweight exercises can I do at home?"
+      ],
+      "responses": [
+        "Home workouts can include push-ups, squats, planks, and burpees. Resistance bands and dumbbells can add variety.",
+        "For training at home, try bodyweight circuits or follow online workout videos tailored to your goals."
+      ]
+    },
+    {
+      "tag": "build_muscle_back",
+      "patterns": [
+        "How can I build muscle on my back?",
+        "What exercises are good for back muscle growth?",
+        "Can you guide me on adding muscle to my back?",
+        "Which workouts help in back muscle development?",
+        "How do I target my back for muscle gain?"
+      ],
+      "responses": [
+        "To build back muscles, focus on exercises like pull-ups, barbell rows, lat pulldowns, and deadlifts. Ensure proper form and progressive overload for optimal growth."
+      ]
+    },
+    {
+      "tag": "build_muscle_chest",
+      "patterns": [
+        "How do I add muscle to my chest?",
+        "What exercises help in chest muscle growth?",
+        "Guide me on building chest muscles.",
+        "How can I target my chest for muscle building?",
+        "What workouts are best for chest muscle development?"
+      ],
+      "responses": [
+        "For chest muscle growth, include bench presses, push-ups, chest flyes, and incline presses in your routine. Adjust angles and weights for variety."
+      ]
+    },
+    {
+      "tag": "build_muscle_arms",
+      "patterns": [
+        "How can I grow my arm muscles?",
+        "What are the best exercises for arm muscle growth?",
+        "Can you help me build muscle in my arms?",
+        "How do I target my arms for muscle building?",
+        "Suggest some workouts for arm muscles."
+      ],
+      "responses": [
+        "Arm muscle growth involves exercises like bicep curls, tricep dips, close-grip bench presses, and hammer curls. Work on both the biceps and triceps for balanced development."
+      ]
+    },
+    {
+      "tag": "build_muscle_biceps",
+      "patterns": [
+        "What are the best exercises for bicep growth?",
+        "How do I build bigger biceps?",
+        "Can you guide me on growing my biceps?",
+        "How can I target my biceps for muscle building?",
+        "What workouts focus on the biceps?"
+      ],
+      "responses": [
+        "For bigger biceps, focus on exercises like barbell curls, hammer curls, concentration curls, and chin-ups. Keep your form strict and progressively increase the weights."
+      ]
+    },
+    {
+      "tag": "build_muscle_triceps",
+      "patterns": [
+        "How do I build muscle in my triceps?",
+        "What exercises are best for triceps growth?",
+        "Can you guide me on adding muscle to my triceps?",
+        "How can I target my triceps for growth?",
+        "What are the best workouts for triceps development?"
+      ],
+      "responses": [
+        "To develop triceps, include exercises like tricep dips, overhead tricep extensions, close-grip bench presses, and tricep pushdowns in your routine."
+      ]
+    },
+    {
+      "tag": "build_muscle_shoulders",
+      "patterns": [
+        "What is the best way to grow shoulder muscles?",
+        "How do I build muscle in my shoulders?",
+        "Can you suggest exercises for shoulder muscle growth?",
+        "How can I target my shoulders for muscle gain?",
+        "What are the best workouts for strong shoulders?"
+      ],
+      "responses": [
+        "For shoulder muscles, include overhead presses, lateral raises, front raises, and reverse flyes in your workout. Don’t forget to work all three deltoid heads for balance."
+      ]
+    },
+    {
+      "tag": "build_muscle_abs",
+      "patterns": [
+        "How do I add muscle to my abs?",
+        "What are the best exercises for ab growth?",
+        "Can you guide me on building stronger abs?",
+        "How can I target my core muscles?",
+        "What workouts are effective for abdominal muscles?"
+      ],
+      "responses": [
+        "To build abs, focus on exercises like planks, hanging leg raises, ab rollouts, and weighted crunches. Combine with a proper diet to reduce fat and make muscles visible."
+      ]
+    },
+    {
+      "tag": "build_muscle_legs",
+      "patterns": [
+        "How can I grow muscles in my legs?",
+        "What are the best exercises for leg development?",
+        "Can you guide me on building leg muscles?",
+        "How do I add muscle to my thighs and calves?",
+        "What workouts target the legs effectively?"
+      ],
+      "responses": [
+        "For leg muscles, include squats, lunges, deadlifts, leg presses, and calf raises in your routine. Use progressive overload and proper form for optimal results."
+      ]
+    },
+    {
+      "tag": "build_muscle_glutes",
+      "patterns": [
+        "How do I grow my glutes?",
+        "What are the best exercises for glute development?",
+        "Can you guide me on building muscle in my glutes?",
+        "How do I target my glutes for muscle gain?",
+        "What workouts focus on the glutes?"
+      ],
+      "responses": [
+        "To grow your glutes, include exercises like hip thrusts, Bulgarian split squats, glute bridges, and cable kickbacks in your routine."
+      ]
+    },
+    {
+      "tag": "push_up_form",
+      "patterns": [
+        "How do I do a proper push-up?",
+        "What is the correct form for push-ups?",
+        "Can you explain how to do push-ups?"
+      ],
+      "responses": [
+        "For push-ups, keep your hands shoulder-width apart, lower your body until your chest is close to the ground, and push back up while keeping your core tight."
+      ]
+    },
+    {
+      "tag": "burpee_form",
+      "patterns": [
+        "What is the correct form for burpees?",
+        "How do I do a proper burpee?",
+        "Can you guide me on burpees?"
+      ],
+      "responses": [
+        "A burpee involves standing, dropping into a squat, kicking your feet back into a push-up position, returning to squat, and jumping up explosively. Want a step-by-step video?"
+      ]
+    },
+    {
+      "tag": "crunch_form",
+      "patterns": [
+        "Can you explain how to do crunches?",
+        "How do I perform crunches properly?",
+        "What is the correct way to do crunches?"
+      ],
+      "responses": [
+        "For crunches, lie on your back with your knees bent, lift your shoulders off the ground using your abs, and lower back down slowly."
+      ]
+    },
+    {
+      "tag": "side_bend_form",
+      "patterns": [
+        "How do I perform side bends?",
+        "What is the proper way to do side bends?",
+        "Can you guide me on side bends?"
+      ],
+      "responses": [
+        "Side bends are done by standing straight, bending sideways at your waist, and keeping your upper body aligned. Do not lean forward or backward."
+      ]
+    },
+    {
+      "tag": "farmers_walk_form",
+      "patterns": [
+        "What is the proper way to do a farmer's walk?",
+        "How do I perform the farmer's walk?",
+        "Can you explain the farmer's walk form?"
+      ],
+      "responses": [
+        "The farmer's walk requires you to hold heavy weights in each hand, walk with your back straight, and engage your core."
+      ]
+    },
+    {
+      "tag": "squat_form",
+      "patterns": [
+        "Can you guide me on squats?",
+        "What is the proper way to do squats?",
+        "How should I perform squats?"
+      ],
+      "responses": [
+        "For squats, keep your feet shoulder-width apart, back straight, and knees tracking over toes. Want a video tutorial link?"
+      ]
+    },
+    {
+      "tag": "leg_raise_form",
+      "patterns": [
+        "How do I perform leg raises?",
+        "What is the correct way to do leg raises?",
+        "Can you guide me on leg raises?"
+      ],
+      "responses": [
+        "Leg raises involve lying on your back and lifting your legs until they form a 90-degree angle with your body, keeping your lower back flat on the ground."
+      ]
+    },
+    {
+      "tag": "pullup_form",
+      "patterns": [
+        "What is the correct form for pull-ups?",
+        "How do I perform pull-ups?",
+        "Can you guide me on pull-ups?"
+      ],
+      "responses": [
+        "Pull-ups require a strong grip on the bar, pulling your chest towards the bar, and lowering yourself slowly."
+      ]
+    },
+    {
+      "tag": "situp_form",
+      "patterns": [
+        "How do I do sit-ups properly?",
+        "What is the correct form for sit-ups?",
+        "Can you explain sit-ups?"
+      ],
+      "responses": [
+        "Sit-ups involve lying on your back with knees bent, placing your hands behind your head or across your chest, and lifting your upper body towards your knees."
+      ]
+    },
+    {
+      "tag": "arm_circle_form",
+      "patterns": [
+        "Can you explain arm circles?",
+        "What is the proper way to do arm circles?",
+        "How should I perform arm circles?"
+      ],
+      "responses": [
+        "For arm circles, extend your arms to the sides and rotate them in small circles, gradually increasing the size of the circles."
+      ]
+    },
+    {
+      "tag": "bicep_curl_form",
+      "patterns": [
+        "What is the proper way to do a bicep curl?",
+        "How do I perform bicep curls?",
+        "Can you explain bicep curls?"
+      ],
+      "responses": [
+        "A bicep curl involves holding a dumbbell, keeping your elbows close to your torso, and lifting the weight towards your shoulders."
+      ]
+    },
+    {
+      "tag": "overhead_press_form",
+      "patterns": [
+        "How should I do an overhead press?",
+        "Can you explain the overhead press form?",
+        "What is the correct way to perform an overhead press?"
+      ],
+      "responses": [
+        "The overhead press requires holding weights at shoulder level, pressing them upwards until your arms are fully extended, and lowering back down slowly."
+      ]
+    },
+    {
+      "tag": "plank_form",
+      "patterns": [
+        "Can you explain the correct plank position?",
+        "What is the proper way to do a plank?",
+        "How should I perform a plank?"
+      ],
+      "responses": [
+        "For a plank, keep your body in a straight line from head to heels, support yourself on your elbows or hands, and engage your core."
+      ]
+    },
+    {
+      "tag": "lunge_form",
+      "patterns": [
+        "How do I perform lunges properly?",
+        "What is the correct way to do lunges?",
+        "Can you guide me on lunges?"
+      ],
+      "responses": [
+        "For lunges, take a step forward, lower your body until your knees form 90-degree angles, and push back up to standing."
+      ]
+    },
+    {
+      "tag": "jump_squat_form",
+      "patterns": [
+        "What is the form for jump squats?",
+        "How do I perform jump squats?",
+        "Can you guide me on jump squats?"
+      ],
+      "responses": [
+        "Jump squats combine a squat with an explosive jump, landing softly back into the squat position."
+      ]
+    },
+    {
+      "tag": "skipping_form",
+      "patterns": [
+        "How should I do skipping properly?",
+        "Can you explain skipping?",
+        "What is the correct way to do skipping?"
+      ],
+      "responses": [
+        "For skipping, use a rope, jump on the balls of your feet, and maintain a consistent rhythm while swinging the rope."
+      ]
+    },
+    {
+      "tag": "tricep_dip_form",
+      "patterns": [
+        "Can you guide me on tricep dips?",
+        "What is the correct way to do tricep dips?",
+        "How do I perform tricep dips?"
+      ],
+      "responses": [
+        "Tricep dips are done by lowering and raising your body using your arms on a stable surface, keeping your back close to the surface."
+      ]
+    },
+    {
+      "tag": "bicycle_crunch_form",
+      "patterns": [
+        "How do I do bicycle crunches?",
+        "Can you explain bicycle crunches?",
+        "What is the proper way to perform bicycle crunches?"
+      ],
+      "responses": [
+        "Bicycle crunches involve lying on your back, alternating elbow-to-knee touches while keeping your core engaged."
+      ]
+    },
+    {
+      "tag": "jumping_jack_form",
+      "patterns": [
+        "What is the correct way to do jumping jacks?",
+        "How should I perform jumping jacks?",
+        "Can you guide me on jumping jacks?"
+      ],
+      "responses": [
+        "Jumping jacks involve jumping while spreading your legs and arms outward, then returning to the starting position."
+      ]
+    },
+    {
+      "tag": "running_form",
+      "patterns": [
+        "What is the proper running form?",
+        "How do I run properly?",
+        "Can you explain running form?"
+      ],
+      "responses": [
+        "For running, maintain an upright posture, keep your strides short, land softly on the balls of your feet, and swing your arms naturally."
+      ]
+    },
+    {
+      "tag": "weekly_routine",
+      "patterns": [
+        "Can you give me a weekly workout routine?",
+        "I need a workout schedule for the week",
+        "Help me plan a weekly fitness routine",
+        "What should I do each day for a week?",
+        "Suggest a weekly workout plan",
+        "Can you create a weekly routine for me?"
+      ],
+      "responses": [
+        "Sure! Here's a general weekly workout plan:\n- Monday: Cardio (running, cycling, or skipping)\n- Tuesday: Strength training (upper body)\n- Wednesday: Yoga or active recovery\n- Thursday: Strength training (lower body)\n- Friday: HIIT or functional training\n- Saturday: Full-body workout\n- Sunday: Rest or light stretching. \nWould you like me to adjust this for your fitness level or goals?",
+        "Here’s a sample weekly plan:\n- Monday: Full-body strength\n- Tuesday: Cardio or endurance training\n- Wednesday: Core and flexibility exercises\n- Thursday: Strength training (upper body focus)\n- Friday: HIIT or speed training\n- Saturday: Fun activity (sports, dance, etc.)\n- Sunday: Rest or active recovery. \nDo you prefer gym or home workouts?",
+        "Here’s a suggested plan for the week:\n- Monday: Push day (chest, shoulders, triceps)\n- Tuesday: Cardio (cycling or running)\n- Wednesday: Pull day (back, biceps, rear delts)\n- Thursday: Active recovery (yoga or walking)\n- Friday: Leg day (squats, lunges, etc.)\n- Saturday: Core and flexibility training\n- Sunday: Rest day. \nWould you like to focus on strength, cardio, or flexibility?"
+      ]
+    },
+    {
+      "tag": "weekly_routine_personalized",
+      "patterns": [
+        "Adjust the routine for weight loss",
+        "Can you make it for muscle building?",
+        "I prefer gym workouts",
+        "I only have dumbbells at home",
+        "I am a beginner, help me with a weekly plan",
+        "I am intermediate, customize the schedule for me",
+        "I am advanced, give me a challenging routine"
+      ],
+      "responses": [
+        "For weight loss, I recommend:\n- Monday: HIIT cardio\n- Tuesday: Strength training (upper body)\n- Wednesday: Active recovery (walking or yoga)\n- Thursday: Lower body workout\n- Friday: HIIT or functional training\n- Saturday: Full-body workout\n- Sunday: Rest or light activity. Would you like me to include meal suggestions?",
+        "For muscle building:\n- Monday: Push day (chest, shoulders, triceps)\n- Tuesday: Pull day (back, biceps)\n- Wednesday: Leg day (squats, lunges, deadlifts)\n- Thursday: Rest\n- Friday: Upper body strength\n- Saturday: Core and flexibility exercises\n- Sunday: Rest. Do you prefer higher volume or heavier weights?",
+        "For a home-based routine with dumbbells:\n- Monday: Full-body dumbbell workout\n- Tuesday: Cardio (skipping, running, or cycling)\n- Wednesday: Core and stretching\n- Thursday: Dumbbell strength training (upper body focus)\n- Friday: HIIT (using body weight or light weights)\n- Saturday: Lower body strength (lunges, squats)\n- Sunday: Rest or yoga. Need exercise specifics?"
+      ]
+    },
+    {
+      "tag": "weekly_routine_followup",
+      "patterns": [
+        "Can you add rest days?",
+        "Include yoga in the schedule",
+        "Focus more on cardio",
+        "I want balanced training",
+        "How about flexibility exercises?",
+        "Add sports activities"
+      ],
+      "responses": [
+        "Here’s an updated plan with more cardio:\n- Monday: Cardio (running or cycling)\n- Tuesday: Strength training\n- Wednesday: Cardio again (HIIT or endurance)\n- Thursday: Yoga or flexibility training\n- Friday: Strength training (full body)\n- Saturday: Sports activity or fun workout\n- Sunday: Rest. Would you like me to provide workout durations?",
+        "If you’d like more focus on flexibility, let’s do this:\n- Monday: Yoga or pilates\n- Tuesday: Cardio\n- Wednesday: Strength training (upper body)\n- Thursday: Stretching or flexibility exercises\n- Friday: Strength training (lower body)\n- Saturday: Active sports or light workout\n- Sunday: Rest. How does that sound?"
+      ]
+    },
+    {
+      "tag": "leg_pain",
+      "patterns": [
+        "I have leg pain, what should I do?",
+        "How can I relieve pain in my legs?",
+        "My legs hurt after exercising, any suggestions?",
+        "What can help with sore legs?",
+        "I feel pain in my legs, can you guide me?"
+      ],
+      "responses": [
+        "For leg pain, consider gentle stretches, applying ice or heat, and resting. If pain persists or worsens, consult a healthcare professional.",
+        "Leg pain can be relieved with proper stretching, hydration, and light massages. If the pain is severe or constant, seeking medical advice is recommended."
+      ]
+    },
+    {
+      "tag": "diet_intro",
+      "patterns": [
+        "Can you give me diet tips?",
+        "Tell me about a healthy diet",
+        "I need advice on eating healthy",
+        "What is a good diet plan?",
+        "Help me with meal planning"
+      ],
+      "responses": [
+        "Sure! I can help you with that. Here are some options to guide you on your dietary journey:\n\n1. *Weight Loss Tips: I can help you with strategies for weight loss, focusing on calorie deficit, high-protein meals, and meal timing.\n\n2. **Weight Gain Tips: Looking to gain weight? I can suggest high-calorie, nutrient-dense foods and protein shakes.\n\n3. **Maintenance Diet: If you're aiming to maintain your current weight, I can provide advice on balanced eating and portion control.\n\n4. **Diet Preferences: Whether you're vegan, vegetarian, pescatarian, or non-vegetarian, I can tailor recommendations to fit your dietary choices.\n\n5. **Specialized Diets: I can guide you on specialized diets like Keto, Mediterranean, Paleo, or Gluten-Free, based on your goals.\n\n6. **Health Conditions: If you have any health conditions like diabetes, heart disease, or gut issues, I can provide dietary tips to support your health.\n\n7. **Supplements*: If you're interested in supplements, I can suggest essential ones like protein powders, vitamins, or omega-3s.\n\nPlease type the number or the name of the option you'd like to explore, and I'll provide more details!"
+      ]
+    },
+    {
+      "tag": "meal_timing",
+      "patterns": [
+        "When should I eat my meals?",
+        "Tell me about meal timings",
+        "How many meals should I eat a day?",
+        "Is eating late at night bad?",
+        "What time should I eat breakfast?"
+      ],
+      "responses": [
+        "For optimal nutrition, try:\n- Breakfast: Within an hour of waking up\n- Lunch: Mid-day, between 12-2 PM\n- Dinner: 3-4 hours before bed\n- Snacks: As needed, focusing on healthy options. Want personalized meal timing?"
+      ]
+    },
+    {
+      "tag": "breakfast_advice",
+      "patterns": [
+        "What should I eat for breakfast?",
+        "Can you give me breakfast ideas?",
+        "Healthy breakfast options?",
+        "What are good morning meals?"
+      ],
+      "responses": [
+        "A healthy breakfast could include:\n- Whole-grain toast with eggs\n- Oatmeal topped with fruits and nuts\n- Greek yogurt with berries\n\nWould you like more breakfast recipes?"
+      ]
+    },
+    {
+      "tag": "lunch_advice",
+      "patterns": [
+        "What should I eat for lunch?",
+        "Healthy lunch options?",
+        "What is a balanced lunch?",
+        "Give me ideas for a healthy lunch"
+      ],
+      "responses": [
+        "A balanced lunch might include:\n- Lean protein (chicken, fish, tofu)\n- Whole grains (quinoa, brown rice)\n- Vegetables (spinach, broccoli, etc.)\n- A healthy fat source (avocado, olive oil). Need quick lunch ideas?"
+      ]
+    },
+    {
+      "tag": "dinner_advice",
+      "patterns": [
+        "What should I eat for dinner?",
+        "Healthy dinner ideas?",
+        "What is a good meal for the evening?",
+        "Suggestions for dinner?"
+      ],
+      "responses": [
+        "Dinner should be lighter but nutritious. Try:\n- Grilled fish or chicken with steamed veggies\n- Lentil soup with a side salad\n- Stir-fried tofu with mixed vegetables. Want more low-calorie options?"
+      ]
+    },
+    {
+      "tag": "snack_advice",
+      "patterns": [
+        "What are good snack options?",
+        "Healthy snacks?",
+        "What should I snack on?",
+        "Give me ideas for light snacks"
+      ],
+      "responses": [
+        "Healthy snacks include:\n- Nuts and seeds (in moderation)\n- Fresh fruits like apples or bananas\n- Greek yogurt or cottage cheese\n- Vegetable sticks with hummus. Need snack ideas for weight loss?"
+      ]
+    },
+    {
+      "tag": "hydration_tips",
+      "patterns": [
+        "How much water should I drink?",
+        "Tell me about staying hydrated",
+        "Is drinking water important?",
+        "How to stay hydrated?"
+      ],
+      "responses": [
+        "Staying hydrated is crucial! Aim for 8-10 glasses of water daily. Add lemon or mint for flavor if plain water is boring. Need tips on hydrating during workouts?"
+      ]
+    },
+    {
+      "tag": "weight_loss_diet",
+      "patterns": [
+        "What is a good diet for weight loss?",
+        "Can you help me with a weight loss diet?",
+        "Give me weight loss food tips",
+        "What should I eat to lose weight?"
+      ],
+      "responses": [
+        "For weight loss:\n- Focus on high-protein, low-carb meals\n- Include lots of vegetables and whole grains\n- Avoid processed foods and sugary drinks\n- Practice portion control. Need a detailed meal plan?"
+      ]
+    },
+    {
+      "tag": "muscle_gain_diet",
+      "patterns": [
+        "What should I eat to build muscle?",
+        "Can you suggest a muscle-building diet?",
+        "How do I gain muscle through diet?",
+        "Give me a muscle-gain meal plan"
+      ],
+      "responses": [
+        "For muscle gain:\n- Increase protein intake (chicken, eggs, lentils)\n- Eat complex carbs like oats and brown rice\n- Include healthy fats (avocados, nuts)\n- Ensure a calorie surplus. Want specific meal ideas?"
+      ]
+    },
+    {
+      "tag": "vegetarian_diet",
+      "patterns": [
+        "I am vegetarian, what should I eat?",
+        "Vegetarian diet ideas?",
+        "Can you give me a vegetarian meal plan?",
+        "What is a balanced vegetarian diet?"
+      ],
+      "responses": [
+        "For a vegetarian diet:\n- Protein: Lentils, tofu, chickpeas\n- Carbs: Quinoa, whole wheat bread\n- Fats: Avocado, olive oil, nuts\n- Vegetables: Spinach, broccoli, carrots. Would you like a weekly vegetarian plan?"
+      ]
+    },
+    {
+      "tag": "cheat_meal",
+      "patterns": [
+        "Can I have cheat meals?",
+        "Is it okay to have cheat days?",
+        "What about eating junk food occasionally?",
+        "Tell me about cheat meals"
+      ],
+      "responses": [
+        "Cheat meals are fine in moderation! Use them as a reward for sticking to your diet. Focus on portion control even when indulging. Want tips to minimize their impact?"
+      ]
+    },
+    {
+      "tag": "portion_control",
+      "patterns": [
+        "How do I control portions?",
+        "What is portion control?",
+        "Tips for portioning my meals?",
+        "How to avoid overeating?"
+      ],
+      "responses": [
+        "For portion control:\n- Use smaller plates to serve food\n- Divide your plate: Half veggies, a quarter protein, and a quarter carbs\n- Avoid second servings unless truly hungry. Want a portioning guide?"
+      ]
+    },
+    {
+      "tag": "high_protein_diet",
+      "patterns": [
+        "What are high-protein foods?",
+        "Give me a high-protein diet plan",
+        "What should I eat for a protein boost?",
+        "Can you suggest protein-rich meals?"
+      ],
+      "responses": [
+        "For a high-protein diet, focus on foods like:\n- Lean meats (chicken, turkey)\n- Fish (salmon, tuna)\n- Plant-based proteins (tofu, lentils, chickpeas)\n- Dairy (Greek yogurt, cottage cheese)\n- Nuts and seeds. Want meal ideas rich in protein?"
+      ]
+    },
+    {
+      "tag": "low_carb_diet",
+      "patterns": [
+        "What is a low-carb diet?",
+        "Can you give me a low-carb meal plan?",
+        "What are good low-carb foods?",
+        "How can I reduce my carb intake?"
+      ],
+      "responses": [
+        "A low-carb diet focuses on reducing carbohydrates like sugars and starches. Some good low-carb options are:\n- Leafy greens (spinach, kale)\n- Non-starchy vegetables (cauliflower, zucchini)\n- Protein (chicken, fish, eggs)\n- Nuts and seeds. Need low-carb meal ideas?"
+      ]
+    },
+    {
+      "tag": "intermittent_fasting",
+      "patterns": [
+        "Can you explain intermittent fasting?",
+        "What are the benefits of intermittent fasting?",
+        "How do I start intermittent fasting?",
+        "Is intermittent fasting good for weight loss?"
+      ],
+      "responses": [
+        "Intermittent fasting is an eating pattern where you cycle between periods of eating and fasting. Common schedules include 16:8 (16 hours fasting, 8 hours eating) or 5:2 (5 days of normal eating, 2 days of calorie restriction). It may help with weight loss and improve metabolic health. Want tips to get started?"
+      ]
+    },
+    {
+      "tag": "meal_prepping",
+      "patterns": [
+        "Can you give me meal prep tips?",
+        "How do I meal prep for the week?",
+        "What are some easy meal prep ideas?",
+        "Give me a guide on meal prepping"
+      ],
+      "responses": [
+        "Meal prepping is a great way to save time and stay on track with your diet. Here are some tips:\n- Choose simple recipes that can be made in bulk\n- Cook in large batches and divide meals into containers\n- Use a variety of proteins, carbs, and vegetables\n- Label meals with dates. Need help planning your weekly prep?"
+      ]
+    },
+    {
+      "tag": "eating_out_tips",
+      "patterns": [
+        "What should I eat when dining out?",
+        "How can I stick to my diet at a restaurant?",
+        "Give me tips for eating out while staying healthy",
+        "What are healthy options at restaurants?"
+      ],
+      "responses": [
+        "When eating out, try these tips:\n- Opt for grilled or steamed dishes instead of fried\n- Ask for dressings or sauces on the side\n- Choose a salad or vegetable-heavy dish\n- Avoid large portions or share with someone\n- Drink water instead of sugary drinks. Need restaurant-specific suggestions?"
+      ]
+    },
+    {
+      "tag": "vegan_diet",
+      "patterns": [
+        "What is a vegan diet?",
+        "Can you help me with vegan meal planning?",
+        "What are vegan sources of protein?",
+        "Give me vegan food ideas"
+      ],
+      "responses": [
+        "A vegan diet excludes all animal products. Key vegan food groups include:\n- Protein: Tofu, tempeh, lentils, beans\n- Grains: Quinoa, brown rice, oats\n- Vegetables: Leafy greens, sweet potatoes, bell peppers\n- Healthy fats: Avocados, nuts, olive oil. Would you like a vegan meal plan?"
+      ]
+    },
+    {
+      "tag": "fiber_rich_diet",
+      "patterns": [
+        "What are some high-fiber foods?",
+        "Give me a fiber-rich meal plan",
+        "How can I increase fiber in my diet?",
+        "Why is fiber important for my health?"
+      ],
+      "responses": [
+        "Fiber is essential for digestion and can help with weight management. Good sources of fiber include:\n- Whole grains (oats, quinoa)\n- Beans and legumes (lentils, chickpeas)\n- Fruits (apples, pears, berries)\n- Vegetables (broccoli, spinach, carrots)\n- Nuts and seeds. Want to add more fiber to your meals?"
+      ]
+    },
+    {
+      "tag": "healthy_fats",
+      "patterns": [
+        "What are healthy fats?",
+        "Give me a list of healthy fats to eat",
+        "What are good sources of fat?",
+        "How can I include more healthy fats in my diet?"
+      ],
+      "responses": [
+        "Healthy fats are important for brain function and overall health. Good sources include:\n- Avocados\n- Nuts and seeds\n- Olive oil\n- Fatty fish (salmon, mackerel)\n- Coconut oil. Need help adding healthy fats to your meals?"
+      ]
+    },
+    {
+      "tag": "gluten_free_diet",
+      "patterns": [
+        "What can I eat on a gluten-free diet?",
+        "Give me gluten-free meal ideas",
+        "How do I follow a gluten-free diet?",
+        "What are some gluten-free alternatives?"
+      ],
+      "responses": [
+        "A gluten-free diet excludes wheat, barley, and rye. Good gluten-free options include:\n- Grains like rice, quinoa, and corn\n- Fruits and vegetables\n- Lean proteins (chicken, fish, tofu)\n- Gluten-free pasta and bread. Need gluten-free recipes?"
+      ]
+    },
+    {
+      "tag": "keto_diet",
+      "patterns": [
+        "What is a keto diet?",
+        "Can you give me a keto meal plan?",
+        "What should I eat on a keto diet?",
+        "How do I follow a ketogenic diet?"
+      ],
+      "responses": [
+        "The keto diet is high in fats and very low in carbohydrates. Some foods to include are:\n- Avocados, nuts, seeds\n- Fatty fish (salmon, mackerel)\n- Cheese and butter\n- Leafy greens and low-carb vegetables\nAvoid: Bread, pasta, and sugary foods. Need keto meal ideas?"
+      ]
+    },
+    {
+      "tag": "mediterranean_diet",
+      "patterns": [
+        "What is the Mediterranean diet?",
+        "Can you help me with a Mediterranean meal plan?",
+        "What should I eat on a Mediterranean diet?",
+        "What foods are included in the Mediterranean diet?"
+      ],
+      "responses": [
+        "The Mediterranean diet is rich in whole grains, lean proteins, and healthy fats, particularly olive oil. Foods include:\n- Fish and seafood (rich in omega-3)\n- Whole grains (quinoa, brown rice)\n- Vegetables and fruits\n- Olive oil and nuts. Would you like Mediterranean meal suggestions?"
+      ]
+    },
+    {
+      "tag": "paleo_diet",
+      "patterns": [
+        "What is the paleo diet?",
+        "Can you give me a paleo meal plan?",
+        "What foods are allowed on a paleo diet?",
+        "How do I follow the paleo diet?"
+      ],
+      "responses": [
+        "The paleo diet focuses on eating whole, unprocessed foods like:\n- Meat (grass-fed, wild-caught)\n- Fish and seafood\n- Fruits and vegetables\n- Nuts and seeds\n- Avoid: Dairy, grains, and processed foods. Need a paleo recipe?"
+      ]
+    },
+    {
+      "tag": "low_fodmap_diet",
+      "patterns": [
+        "What is a low-FODMAP diet?",
+        "Can you suggest low-FODMAP foods?",
+        "What can I eat on a low-FODMAP diet?",
+        "Give me low-FODMAP meal ideas"
+      ],
+      "responses": [
+        "A low-FODMAP diet is designed to reduce foods that trigger digestive issues. Some options include:\n- Low-FODMAP fruits (bananas, blueberries)\n- Lean meats and fish\n- Gluten-free grains (rice, oats)\n- Lactose-free dairy products. Need low-FODMAP meal suggestions?"
+      ]
+    },
+    {
+      "tag": "diabetes_diet",
+      "patterns": [
+        "What should I eat with diabetes?",
+        "Can you suggest a diabetes-friendly diet?",
+        "What foods are best for diabetes?",
+        "How can I control blood sugar through diet?"
+      ],
+      "responses": [
+        "For diabetes management, focus on:\n- High-fiber foods (vegetables, legumes)\n- Lean proteins (chicken, fish)\n- Whole grains (brown rice, quinoa)\n- Low-glycemic fruits (berries, apples)\n- Avoid sugary snacks and processed foods. Want a meal plan for diabetes?"
+      ]
+    },
+    {
+      "tag": "heart_health_diet",
+      "patterns": [
+        "What is a heart-healthy diet?",
+        "Can you give me a diet plan for heart health?",
+        "What foods help with heart health?",
+        "What should I eat to lower cholesterol?"
+      ],
+      "responses": [
+        "A heart-healthy diet includes:\n- Omega-3-rich foods (salmon, flaxseeds)\n- Whole grains (oats, brown rice)\n- Healthy fats (olive oil, avocado)\n- Fruits and vegetables (especially leafy greens)\n- Low-sodium options. Need heart-healthy meal suggestions?"
+      ]
+    },
+    {
+      "tag": "gut_health_diet",
+      "patterns": [
+        "What foods are good for gut health?",
+        "Can you help me with a gut-friendly diet?",
+        "What should I eat for digestive health?",
+        "What foods improve gut health?"
+      ],
+      "responses": [
+        "For gut health, focus on:\n- Probiotic-rich foods (yogurt, kimchi, kefir)\n- High-fiber foods (beans, vegetables, fruits)\n- Bone broth\n- Hydration (water, herbal teas). Want a gut-health meal plan?"
+      ]
+    },
+    {
+      "tag": "bone_health_diet",
+      "patterns": [
+        "What foods are good for bone health?",
+        "Can you give me a diet for bone health?",
+        "What should I eat for strong bones?",
+        "What foods are high in calcium and vitamin D?"
+      ],
+      "responses": [
+        "For bone health, include:\n- Calcium-rich foods (dairy, leafy greens, almonds)\n- Vitamin D-rich foods (salmon, egg yolks, fortified milk)\n- Magnesium-rich foods (spinach, pumpkin seeds). Want bone-healthy meal ideas?"
+      ]
+    },
+    {
+      "tag": "supplementation",
+      "patterns": [
+        "What supplements should I take?",
+        "Can you suggest some essential supplements?",
+        "What are the best vitamins and minerals to take?",
+        "Should I take protein powder or multivitamins?"
+      ],
+      "responses": [
+        "Essential supplements for general health include:\n- Multivitamins (to cover nutrient gaps)\n- Omega-3 (for heart health)\n- Protein powders (for muscle recovery)\n- Vitamin D (especially in winter). Need recommendations for specific supplements?"
+      ]
+    },
+    {
+      "tag": "specialized_supplements",
+      "patterns": [
+        "What specialized supplements should I take?",
+        "Can you suggest supplements like collagen or creatine?",
+        "Should I take collagen for joints?",
+        "What are the benefits of creatine?"
+      ],
+      "responses": [
+        "Specialized supplements include:\n- Collagen (for skin, joints, and bones)\n- Creatine (for muscle strength and performance)\n- Probiotics (for gut health)\n- Magnesium (for sleep and muscle function). Want a guide on specialized supplementation?"
+      ]
+    },
+    {
+      "tag": "diet_myths_and_facts",
+      "patterns": [
+        "Are carbs bad for you?",
+        "Do I need to avoid all fat to lose weight?",
+        "Is breakfast really the most important meal?",
+        "What are common diet myths?"
+      ],
+      "responses": [
+        "Let’s debunk some common diet myths:\n- Carbs are not inherently bad; focus on complex carbs\n- Healthy fats are essential for body function\n- Breakfast is important, but it's not mandatory if intermittent fasting works for you\n- Eating late at night doesn’t automatically cause weight gain. Want to know more?"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "How can I stay motivated?",
+        "Give me motivation tips",
+        "I need help with motivation",
+        "Motivation advice"
+      ],
+      "responses": [
+        "Remember why you started! Break your goals into smaller milestones and celebrate progress. Would you like a motivational quote?",
+        "Tracking your progress can be motivating. Want tips on how to log your workouts?"
+      ]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": [
+        "Can exercise improve mental health?",
+        "What are mental health benefits of fitness?",
+        "Help me understand the link between fitness and mental health",
+        "I feel stressed, can exercise help?"
+      ],
+      "responses": [
+        "Yes! Exercise releases endorphins, improves mood, and reduces stress. Activities like yoga and running are great for mental health. Want a mindfulness tip?",
+        "Regular fitness routines improve sleep and energy levels. Would you like to try a guided meditation?"
+      ]
+    },
+    {
+      "tag": "sleep_and_recovery",
+      "patterns": [
+        "How much sleep do I need?",
+        "Is sleep important for recovery?",
+        "Tell me about sleep and fitness recovery"
+      ],
+      "responses": [
+        "Sleep is critical for muscle repair and overall health. Aim for 7-9 hours a night. Need tips for better sleep?",
+        "Recovery includes proper sleep, hydration, and stretching. Would you like a guide on optimizing recovery?"
+      ]
+    },
+    {
+      "tag": "fitness_goals",
+      "patterns": [
+        "How do I set fitness goals?",
+        "Can you help me set a goal?",
+        "What are realistic fitness goals?",
+        "I want to lose weight, where do I start?"
+      ],
+      "responses": [
+        "Start with SMART goals: Specific, Measurable, Achievable, Relevant, Time-bound. For example, aim to lose 1kg in 2 weeks through diet and exercise. Need help planning?",
+        "Setting a goal depends on your current fitness level and preferences. Let’s create one step-by-step!"
+      ]
+    },
+    {
+      "tag": "time_efficient_workouts",
+      "patterns": [
+        "I don't have much time to work out",
+        "Can you suggest quick workouts?",
+        "What are short workouts for busy people?",
+        "I need a 10-minute workout"
+      ],
+      "responses": [
+        "Try a 10-minute HIIT session! For example: 30 seconds of jumping jacks, squats, and push-ups with 10-second rests. Want the full guide?",
+        "Short workouts can be effective! Would you like a plan for strength or cardio?"
+      ]
+    },
+    {
+      "tag": "fitness_special_needs",
+      "patterns": [
+        "Can you suggest prenatal exercises?",
+        "What are good exercises for seniors?",
+        "Is there a workout for back pain?",
+        "I have knee pain, what should I do?"
+      ],
+      "responses": [
+        "For prenatal fitness, gentle yoga and walking are great. Always consult your doctor first! Want tailored tips?",
+        "For seniors, focus on low-impact exercises like swimming or resistance band training. Would you like a detailed plan?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Talk to you later",
+        "I'm done"
+      ],
+      "responses": [
+        "See you later! Keep up the great work with your fitness goals! 😊",
+        "Goodbye! Come back anytime for more tips and guidance."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Do you know any jokes?",
+        "Make me laugh!"
+      ],
+      "responses": [
+        "Why did the treadmill bring a date to the gym? It wanted to go the extra mile!",
+        "What’s a fitness coach’s favorite game? Follow the leaderboards!"
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "tag": "kegel_exercise",
+      "patterns": [
+        "What are Kegel exercises?",
+        "Tell me about Kegel exercises",
+
+        "How do I do Kegel exercises?",
+        "What are the benefits of Kegel exercises?",
+       
+        "What exercises are good for urine-related problems?",
+        "Are there exercises for old people to control urine?"
+        
+       
+      ],
+      "responses": [
+        "Kegel exercises are designed to strengthen your pelvic floor muscles, helping with issues like urinary leakage, inconsistency, or pelvic discomfort."
+       
+      ]
+    },
+    {
+      "tag":"kegel_exercise1",
+      "patterns":[ "Why should I practice Kegel exercises?",
+      "I have urine leakage issues, can Kegel exercises help?",
+      "Can Kegel exercises help with urinary inconsistency?"],
+      "responses":[ "For people experiencing urine-related problems or pelvic floor weakness, Kegel exercises are a great solution."]
+
+
+    },
+    {
+      "tag":"kegel_exercise2",
+      "patterns":["What can women do after pregnancy for pelvic health?",
+      "Are Kegel exercises good after childbirth?"],
+      "responses":[
+        "After pregnancy or childbirth, women can benefit significantly from Kegel exercises to restore pelvic strength."]
+
+
+    },
+    {
+      "tag":"kegel_exercise3",
+      "patterns":[
+        "Older individuals dealing with urinary inconsistency or leakage can improve bladder control with regular Kegel exercises."
+        ],
+      "responses":["Would you like a step-by-step guide to start Kegel exercises?"]
+
+
+    },
+    {
+      "tag":"kegel_exercise4",
+      "patterns":["step step procedure for kegel exercise"],
+      "responses":["Here's how to start Kegel exercises as a beginner:\n\n1. Identify your pelvic floor muscles: You can find them by stopping the flow of urine midstream or tightening the muscles you use to hold in gas.\n\n2. Get into a comfortable position: Sit or lie down in a relaxed posture.\n\n3. Tighten your pelvic floor muscles: Hold the contraction for about 3-5 seconds, then relax for the same amount of time.\n\n4. Repeat the exercise: Aim for 10-15 repetitions, 3 times a day.\n\n5. Avoid overusing surrounding muscles: Keep your abdomen, thighs, and buttocks relaxed during the exercise.\n\n6. Breathe normally: Don’t hold your breath while contracting the muscles.\n\nStart slowly and increase the duration and intensity as your muscles get stronger. Consistency is key for results!"
+    ]
+
+
+    },
+    {
+      "tag": "kegel_exercise_Description",
+      "patterns": [
+           "benefits of kegel exercise"
+      ],
+      "responses": [
+     "1. Improves Bladder Control: Helps prevent or control urinary incontinence by strengthening the pelvic floor muscles.2. Reduces Risk of Pelvic Organ Prolapse: Supports organs like the bladder, uterus, and rectum, preventing prolapse.3. Enhances Sexual Health: Improves sexual function by increasing blood flow and muscle tone in the pelvic area.\n\n 4. Supports Postpartum Recovery: Aids in regaining muscle strength after childbirth.\n\n5. Helps with Constipation: Improves bowel control by strengthening anal sphincter muscles.\n\n 6. Improves Prostate Health in Men: Assists in managing urinary issues caused by prostate problems.\n\n 7. Reduces Post-Surgery Complications: Helps in recovery and maintaining control after pelvic surgeries.\n\n8. Increases Core Stability: Strengthens the connection between pelvic floor and core muscles, improving posture and balance.\n\n9. Prevents Accidental Leakage: Useful during activities like sneezing, coughing, or heavy lifting.\n\n10. Can Be Done Anywhere: Discreet and easy to incorporate into daily routines."
+      ]
+    },
+    {
+      "tag": "pranayama",
+      "patterns": [
+        "What is pranayama?",
+        "Tell me about pranayama",
+        "What are the types of pranayama?",
+        "How can pranayama benefit me?",
+        "What are the different pranayama techniques?",
+        "Which pranayama should I practice for relaxation?"
+      ],
+      "responses": [
+        "Pranayama is a yogic practice of controlling the breath, often used to improve mental clarity, reduce stress, and enhance overall well-being.\n\nThere are various types of pranayama, including Anulom Vilom, Kapalbhati, Bhastrika, and more, each offering unique health benefits.\n\n Pranayama techniques can help in reducing anxiety, improving focus, enhancing lung capacity, and calming the mind.\n\n Would you like to learn about specific pranayama techniques?"
+      ]
+    },
+ 
+    {
+      "tag": "anulom_vilom",
+      "patterns": [
+        "What is Anulom Vilom?",
+        "How to do Anulom Vilom?",
+        "Tell me about Nadi Shodhana",
+        "How can I practice Anulom Vilom?",
+        "What are the benefits of Anulom Vilom?",
+        "Can Anulom Vilom help with stress?"
+      ],
+      "responses": [
+        "Anulom Vilom, also known as Nadi Shodhana, is a breathing technique that involves alternating nostrils for inhalation and exhalation. \n\nThis practice is beneficial for reducing stress, improving concentration, and balancing the left and right sides of the brain.,\n\nAnulom Vilom can help you calm your mind, improve respiratory function, and enhance your overall sense of well-being. \n\nWould you like to learn how to perform Anulom Vilom?"
+      ]
+    },
+    {
+      "tag": "kapalbhati",
+      "patterns": [
+        "What is Kapalbhati?",
+        "How to do Kapalbhati?",
+        "Tell me about Kapalbhati pranayama",
+        "What are the benefits of Kapalbhati?",
+        "How can Kapalbhati improve digestion?"
+      ],
+      "responses": [
+        "Kapalbhati is a powerful pranayama technique that involves forceful exhalation and passive inhalation.\n\nIt helps in detoxifying the body, improving digestion, and energizing the mind. \n\nKapalbhati can also reduce stress, improve blood circulation, and aid in weight loss.\n\nWould you like to know how to practice Kapalbhati?"
+      ]
+    },
+    {
+      "tag": "bhastrika",
+      "patterns": [
+        "What is Bhastrika?",
+        "How to do Bhastrika pranayama?",
+        "Explain Bhastrika breathing",
+        "What are the benefits of Bhastrika?",
+        "How can Bhastrika improve energy levels?"
+      ],
+      "responses": [
+        "Bhastrika, also known as bellows breath, is a pranayama technique that involves active and forceful inhalation and exhalation.\n\nIt increases energy, boosts oxygen supply to the body, and can improve focus and mental clarity.\n\nBhastrika helps improve lung capacity, clear respiratory channels, and energize the body.\n\nWould you like a step-by-step guide to practice Bhastrika?"
+      ]
+    },
+    {
+      "tag": "ujjayi",
+      "patterns": [
+        "What is Ujjayi pranayama?",
+        "How do I practice Ujjayi?",
+        "Explain Ujjayi breathing technique",
+        "What are the benefits of Ujjayi pranayama?"
+      ],
+      "responses": [
+        "1.Ujjayi pranayama, also known as victorious breath, involves breathing in and out through the nose with a slight constriction in the throat. 2.This practice helps calm the mind, enhance concentration, and regulate energy flow in the body.3.Ujjayi pranayama can improve blood circulation, reduce stress, and enhance the capacity for deep meditation.4.Would you like to know more about Ujjayi pranayama?"
+      ]
+    },
+    {
+      "tag": "sheetali",
+      "patterns": [
+        "What is Sheetali pranayama?",
+        "How to do Sheetali breathing?",
+        "Tell me about Sheetali pranayama",
+        "What are the benefits of Sheetali pranayama?"
+      ],
+      "responses": [
+        "Sheetali pranayama is a cooling breathing technique that involves inhaling through the mouth and exhaling through the nose.\n\nThis technique helps cool the body, calm the mind, and relieve stress or anxiety.\n\nSheetali pranayama is particularly useful in hot weather or for individuals experiencing anger or frustration.\n\nWould you like a guide on how to perform Sheetali pranayama?"
+      ]
+    },
+    {
+      "tag": "sheetkari",
+      "patterns": [
+        "What is Sheetkari pranayama?",
+        "How to practice Sheetkari?",
+        "What are the benefits of Sheetkari pranayama?"
+      ],
+      "responses": [
+        "A balanced lunch might include:\n- Lean protein (chicken, fish, tofu)\n- Whole grains (quinoa, brown rice)\n- Vegetables (spinach, broccoli, etc.)\n- A healthy fat source (avocado, olive oil). Need quick lunch ideas?\n\nIt is a cooling technique that calms the nervous system, reduces stress, and enhances relaxation.\n\n Sheetkari pranayama is beneficial for lowering body temperature and promoting mental clarity.Would you like to know how to practice Sheetkari pranayama?"
+      ]
+    },
+    {
+      "tag": "bhramari",
+      "patterns": [
+        "What is Bhramari pranayama?",
+        "How do I do Bhramari?",
+        "Tell me about Bhramari breathing exercise",
+        "How can I practice Bhramari?",
+        "What are the benefits of Bhramari pranayama?"
+      ],
+      "responses": [
+        "Bhramari pranayama, or humming bee breath, involves making a humming sound during exhalation.This technique is effective for calming the mind, relieving stress, and improving focus.Bhramari helps alleviate tension in the head, improves concentration, and enhances mental clarity.Would you like to learn how to perform Bhramari pranayama?"
+      ]
+    },
+    {
+      "tag": "surya_bhedana",
+      "patterns": [
+        "What is Surya Bhedana pranayama?",
+        "How do I practice Surya Bhedana?",
+        "What are the benefits of Surya Bhedana?",
+        "How does Surya Bhedana pranayama affect energy levels?"
+      ],
+      "responses": [
+        "Surya Bhedana pranayama involves inhaling through the right nostril and exhaling through the left nostril.This technique stimulates the body’s internal energy and increases focus and concentration.Surya Bhedana is often practiced to improve vitality and boost the body’s physical warmth and energy.Would you like to try Surya Bhedana pranayama?"
+      ]
+    },
+    {
+      "tag": "chandra_bhedana",
+      "patterns": [
+        "What is Chandra Bhedana pranayama?",
+        "How do I do Chandra Bhedana?",
+        "Tell me about Chandra Bhedana pranayama",
+        "What are the benefits of Chandra Bhedana?"
+      ],
+      "responses": [
+        "Chandra Bhedana pranayama involves inhaling through the left nostril and exhaling through the right nostril.This technique helps calm the body, cool the mind, and promote relaxation.Chandra Bhedana is especially beneficial when dealing with stress, anxiety, or sleeplessness.Would you like a guide on how to perform Chandra Bhedana pranayama?"
+      ]
+    },
+    {
+      "tag": "udgeet_pranayama",
+      "patterns": [
+        "What is Omkar Pranayama?",
+        "Tell me about Udgith Pranayama",
+        "How do I do Omkar Pranayama?",
+        "What are the benefits of Omkar Pranayama?",
+        "How do I practice Udgith Pranayama?",
+        "Can Udgith Pranayama help with stress?"
+      ],
+      "responses": [
+        "Omkar Pranayama, also known as Udgith Pranayama, involves chanting the sound 'Om' while practicing controlled breathing. It helps calm the mind and brings a sense of peace.To practice Omkar Pranayama, sit in a comfortable position, close your eyes, take a deep breath, and chant the sound 'Om' for a prolonged period as you exhale.This pranayama helps reduce stress, balance the energy in the body, and improve focus and concentration.Omkar Pranayama is known for its ability to harmonize body and mind, making it an excellent practice for meditation and mental relaxation."
+      ]
+    },
+    {
+      "tag": "yoga_poses",
+      "patterns": [
+        "What are yoga poses?",
+        "Tell me about basic yoga poses",
+        "What are the different types of yoga poses?",
+        "How do I start practicing yoga?",
+        "What are the benefits of yoga poses?",
+        "Which yoga poses are good for beginners?"
+      ],
+      "responses": [
+        "Yoga poses, or asanas, are physical postures practiced to enhance flexibility, strength, balance, and overall health.There are numerous yoga poses, each serving a different purpose such as improving flexibility, calming the mind, or building strength.Yoga can benefit you physically and mentally. Would you like to learn about specific poses?"
+      ]
+    },
+    {
+      "tag": "tadasana",
+      "patterns": [
+        "What is Tadasana?",
+        "How to do Tadasana?",
+        "Tell me about Tadasana pose",
+        "What are the benefits of Tadasana?",
+        "Can Tadasana help improve posture?"
+      ],
+      "responses": [
+        "Tadasana, or Mountain Pose, is a foundational standing posture that promotes good posture, stability, and body awareness.To perform Tadasana, stand with your feet together, arms by your sides, and engage your legs while lengthening your spine.Tadasana helps improve posture, strengthen the legs, and build a sense of grounding and balance.Would you like to know how to practice Tadasana?"
+      ]
+    },
+    {
+      "tag": "downward_dog",
+      "patterns": [
+        "What is Downward Dog?",
+        "How do I do Downward Dog?",
+        "Tell me about the Downward Dog pose",
+        "What are the benefits of Downward Dog?",
+        "Can Downward Dog help stretch my back?"
+      ],
+      "responses": [
+        "Downward Dog (Adho Mukha Svanasana) is a popular yoga pose that stretches the entire body, particularly the hamstrings, back, and shoulderTo perform Downward Dog, start on all fours and lift your hips towards the sky, forming an inverted V shape with your bodThis pose strengthens the arms, shoulders, and core, and also stretches the back, hamstrings, and calveWould you like to learn more about how to practice Downward Dog?"
+      ]
+    },
+    {
+      "tag": "childs_pose",
+      "patterns": [
+        "What is Child's Pose?",
+        "How do I do Child's Pose?",
+        "Tell me about Child's Pose",
+        "What are the benefits of Child's Pose?",
+        "Is Child's Pose good for relaxation?"
+      ],
+      "responses": [
+        "Child's Pose (Balasana) is a resting pose that gently stretches the back, hips, and thighs while promoting relaxation and mindfulnesTo practice Child's Pose, kneel on the mat, sit back on your heels, and gently fold forward with your arms extended on the maChild's Pose is great for relaxation, relieving tension in the back, and calming the minWould you like a step-by-step guide on how to perform Child's Pose?"
+      ]
+    },
+    {
+      "tag": "sirsasana",
+      "patterns": [
+        "What is Sirsasana?",
+        "How do I do a headstand?",
+        "What are the benefits of Sirsasana?",
+        "Can I practice Sirsasana (Headstand)?",
+        "What is the correct way to perform Sirsasana?"
+      ],
+      "responses": [
+        "Sirsasana, also known as Headstand, is an advanced yoga pose that involves balancing on your head with the support of your forearms. It is known as the 'King of Asanas' due to its wide range of benefitBenefits of Sirsasana include improved circulation, enhanced brain function, improved concentration, and a strengthened core. It also helps in relieving stress and anxiety.To perform Sirsasana, start in a kneeling position, interlock your fingers, and place your forearms on the floor. Place the crown of your head on the ground between your hands, then slowly raise your legs upwards while keeping your core engaged and maintaining balance,Ensure you practice under guidance, especially if you are a beginner. If you have neck, spine, or heart issues, avoid this pose.Always warm up before attempting this pose and avoid doing it for prolonged periods. Proper alignment is crucial to avoid injury, and it’s recommended to use a wall for support during practice."
+      ]
+    },
+    {
+      "tag": "halasana",
+      "patterns": [
+        "What is Halasana?",
+        "How do I do Halasana (Plow Pose)?",
+        "What are the benefits of Halasana?",
+        "Can I practice Halasana?",
+        "What is the correct way to perform Halasana?"
+      ],
+      "responses": [
+        "Halasana, or Plow Pose, is an inversion yoga pose where you lie on your back and bring your legs over your head to touch the floor behind you.The benefits of Halasana include improved flexibility in the spine, stimulation of the digestive organs, improved circulation, and stress relief.To practice Halasana, lie flat on your back, engage your core, and lift your legs over your head, bringing them to the ground behind you. Keep your arms flat on the floor with your palms facing down.Ensure you don’t strain your neck while performing Halasana. If you have neck or back problems, this pose should be avoided.This pose stretches the shoulders, spine, and hamstrings. It also helps relieve tension and stress, improving overall relaxation and calming the mind."
+      ]
+    },
+    {
+      "tag": "cobra_pose",
+      "patterns": [
+        "What is Cobra Pose?",
+        "How do I do Cobra Pose?",
+        "Tell me about Cobra Pose",
+        "What are the benefits of Cobra Pose?",
+        "Can Cobra Pose help with back pain?"
+      ],
+      "responses": [
+        "Cobra Pose (Bhujangasana) is a backbend pose that strengthens the spine, opens the chest, and stretches the abdominal muscles.To perform Cobra Pose, lie on your stomach, place your hands under your shoulders, and lift your chest off the ground while keeping your elbows slightly bent.Cobra Pose helps alleviate back pain, improve flexibility in the spine, and stimulate the abdominal organs.Would you like to learn more about how to do Cobra Pose?"
+      ]
+    },
+    {
+      "tag": "warrior_pose_1",
+      "patterns": [
+        "What is Warrior Pose 1?",
+        "How do I do Warrior Pose 1?",
+        "Tell me about Warrior Pose 1",
+        "What are the benefits of Warrior Pose 1?",
+        "How does Warrior Pose 1 improve strength?"
+      ],
+      "responses": [
+        "Warrior Pose 1 (Virabhadrasana 1) is a standing pose that builds strength in the legs, core, and arms while improving balance and concentration.To perform Warrior Pose 1, step one foot back, bend your front knee, and raise your arms overhead, with your gaze forward.This pose helps strengthen the legs, hips, and arms while increasing stamina and focus.Would you like a detailed guide on how to practice Warrior Pose 1?"
+      ]
+    },
+    {
+      "tag": "triangle_pose",
+      "patterns": [
+        "What is Triangle Pose?",
+        "How do I do Triangle Pose?",
+        "Tell me about Triangle Pose",
+        "What are the benefits of Triangle Pose?",
+        "Can Triangle Pose improve flexibility?"
+      ],
+      "responses": [
+        "Triangle Pose (Trikonasana) is a standing pose that stretches the legs, hips, and spine while improving flexibility and balance.To perform Triangle Pose, stand with your legs wide apart, extend your arms parallel to the ground, and reach your front hand toward your foot while keeping your back straight.Triangle Pose improves flexibility in the hips, legs, and spine and helps strengthen the core and legs.Would you like to know how to do Triangle Pose step-by-step?"
+      ]
+    },
+    {
+      "tag": "seated_forward_fold",
+      "patterns": [
+        "What is Seated Forward Fold?",
+        "How do I do Seated Forward Fold?",
+        "Tell me about Seated Forward Fold",
+        "What are the benefits of Seated Forward Fold?",
+        "Can Seated Forward Fold help with flexibility?"
+      ],
+      "responses": [
+        "Seated Forward Fold (Paschimottanasana) is a seated pose that stretches the hamstrings, back, and spine.To perform Seated Forward Fold, sit with your legs extended straight ahead, inhale to lengthen your spine, and then fold forward, reaching for your feet.This pose is great for improving flexibility in the hamstrings and spine, as well as calming the nervous system.Would you like to learn how to practice Seated Forward Fold?"
+      ]
+    },
+    {
+      "tag": "bridge_pose",
+      "patterns": [
+        "What is Bridge Pose?",
+        "How do I do Bridge Pose?",
+        "Tell me about Bridge Pose",
+        "What are the benefits of Bridge Pose?",
+        "Can Bridge Pose help strengthen the back?"
+      ],
+      "responses": [
+        "Bridge Pose (Setu Bandhasana) is a backbend that helps strengthen the glutes, lower back, and thighs while opening the chest and hips.To perform Bridge Pose, lie on your back, bend your knees, and lift your hips towards the ceiling, pressing your feet and arms into the ground.Bridge Pose improves spinal flexibility, strengthens the back, and helps relieve tension in the chest and shoulders.Would you like to know how to perform Bridge Pose."
+      ]
+    },
+    {
+      "tag": "cat_cow_pose",
+      "patterns": [
+        "What is Cat-Cow Pose?",
+        "How do I do Cat-Cow Pose?",
+        "Tell me about Cat-Cow Pose",
+        "What are the benefits of Cat-Cow Pose?"
+      ],
+      "responses": [
+        "Cat-Cow Pose (Marjaryasana-Bitilasana) is a gentle flow between two poses that helps warm up the spine and relieve tension in the back and neck.To practice Cat-Cow Pose, start on all fours, alternate between arching your back towards the ceiling (Cat) and dipping your spine towards the floor (Cow).Cat-Cow Pose increases spinal flexibility, massages the internal organs, and improves posture.Would you like a step-by-step guide for Cat-Cow Pose?"
+      ]
+    },
+    {
+      "tag": "surya_namaskar",
+      "patterns": [
+        "What is Surya Namaskar?",
+        "How do I do Surya Namaskar?",
+        "Tell me about Surya Namaskar",
+        "What are the benefits of Surya Namaskar?",
+        "How many rounds of Surya Namaskar should I do?",
+        "What is Sun Salutation?"
+      ],
+      "responses": [
+        "Surya Namaskar, or Sun Salutation, is a series of 12 yoga poses performed in a sequence to greet the sun. It helps improve flexibility, strength, and overall well-being.To perform Surya Namaskar, start in Tadasana (Mountain Pose) and flow through a series of poses such as Downward Dog, Plank, Cobra, and more.Surya Namaskar helps improve circulation, stretches the body, and can be a great way to energize yourself in the morning.It is often recommended to perform 12 rounds of Surya Namaskar, but the number can be adjusted based on your fitness level."
+      ]
+    },
+    {
+      "tag": "gomukhasana",
+      "patterns": [
+        "What is Gomukhasana?",
+        "How do I do Gomukhasana?",
+        "Tell me about the Cow Face Pose",
+        "What are the benefits of Gomukhasana?",
+        "Is Gomukhasana good for my shoulders?"
+      ],
+      "responses": [
+        "Gomukhasana, or Cow Face Pose, is a seated yoga posture that helps stretch the shoulders, hips, and thighs while promoting relaxation and flexibility.To perform Gomukhasana, sit with your legs crossed, then bring one arm behind your back and the other over your shoulder, clasping your hands together if possible.Gomukhasana is great for improving shoulder mobility, stretching the hip flexors, and relieving tension in the body.This pose can be particularly helpful for people with tight shoulders or hips, as it helps open up those areas."
+      ]
+    },
+    {
+      "tag": "stress_anxiety",
+      "patterns": [
+        "What yoga is good for stress?",
+        "Which pranayama can help reduce anxiety?",
+        "Yoga for stress relief"
+      ],
+      "responses": ["For stress and anxiety, try practicing Nadi Shodhana (Alternate Nostril Breathing), which helps calm the mind and balance emotions.For anxiety, Udgiet Pranayama (Om Chanting) is beneficial, as it helps lower anxiety levels and promotes relaxation.Yoga poses like Tadasana (Mountain Pose), Vrikshasana (Tree Pose), and Bhujangasana (Cobra Pose) are also great for reducing stress"
+      ]
+    },
+    {
+      "tag": "back_pain_yoga",
+      "patterns": [
+        "Which yoga is good for back pain?",
+        "How can I relieve back pain with yoga?",
+        "Yoga poses for lower back pain"
+      ],
+      "responses": [
+        "For back pain relief, try practicing Bhujangasana (Cobra Pose), which strengthens the spine and relieves tension.Tadasana (Mountain Pose) is excellent for improving posture and relieving back pain.Goumukhasana (Cow Face Pose) is also helpful for relieving shoulder and back pain, especially around the neck and spine."
+      ]
+    },
+    {
+      "tag": "digestion",
+      "patterns": [
+        "What pranayama is good for digestion?",
+        "Yoga for better digestion",
+        "Which pranayama can help with digestive problems?"
+      ],
+      "responses": [
+        "Kapalbhati (Breath of Fire) helps with digestion by detoxifying the digestive system and stimulating the abdominal organs.","Bhujangasana (Cobra Pose) and Pavanmuktasana (Wind-Relieving Pose) are beneficial for improving digestion and relieving bloating.For digestion issues, practicing Bhastrika (Bellows Breath) is also effective as it increases oxygen flow to the digestive organs."
+      ]
+    },
+    {
+      "tag": "insomnia",
+      "patterns": [
+        "What yoga poses help with sleep?",
+        "Which pranayama helps with insomnia?",
+        "Yoga for better sleep"
+      ],
+      "responses": [
+        "For insomnia, try practicing Udgiet Pranayama (Om Chanting) and Nadi Shodhana (Alternate Nostril Breathing) to calm the nervous system.Yoga poses like Supta Baddha Konasana (Reclining Bound Angle Pose) and Savasana (Corpse Pose) promote deep relaxation and restful sleep.Pranayamas like Bhramari (Bee Breath) and Anulom Vilom are also very effective for improving sleep quality."
+      ]
+    },
+    {
+      "tag": "hypertension",
+      "patterns": [
+        "Which yoga is good for high blood pressure?Yoga poses for hypertensionHow can yoga help reduce high blood pressure?"
+      ],
+      "responses": [
+        "For high blood pressure, try practicing gentle pranayama techniques like Nadi Shodhana (Alternate Nostril Breathing) to relax and lower stress levels.Shavasana (Corpse Pose) is known for its calming effect, which helps in controlling blood pressure.Vrikshasana (Tree Pose) and Tadasana (Mountain Pose) are also beneficial for regulating blood pressure."
+      ]
+    },
+    {
+      "tag": "weight_loss",
+      "patterns": [
+        "Which yoga is good for weight loss?",
+        "Yoga poses to lose weight",
+        "What pranayama is good for weight loss?"
+      ],
+      "responses": [
+        "Kapalbhati (Breath of Fire) is one of the best pranayama techniques for weight loss, as it helps burn fat and boosts metabolism.Surya Namaskar (Sun Salutation) is an excellent yoga sequence for weight loss, as it activates multiple muscle groups and increases calorie burn.Postures like Utkatasana (Chair Pose) and Trikonasana (Triangle Pose) help tone the body and support weight management."
+      ]
+    },
+    {
+      "tag": "joint_pain",
+      "patterns": [
+        "Which yoga poses are good for joint pain?",
+        "Yoga for arthritis",
+        "What pranayama is good for joint pain?"
+      ],
+      "responses": [
+        "For joint pain relief, gentle yoga poses like Tadasana (Mountain Pose) and Setu Bandhasana (Bridge Pose) help improve flexibility and strength without straining joints.Utkatasana (Chair Pose) and Trikonasana (Triangle Pose) can help in easing joint stiffness and improving mobility.Pranayamas like Anulom Vilom (Nadi Shodhana) help to relieve tension in the body and improve joint function."
+      ]
+    },
+    {
+      "tag": "pregnancy",
+      "patterns": [
+        "What yoga poses are safe during pregnancy?",
+        "Can yoga help with pregnancy?",
+        "Which pranayama should be avoided during pregnancy?"
+      ],
+      "responses": [
+        "During pregnancy, gentle yoga poses like Tadasana (Mountain Pose) and Vrikshasana (Tree Pose) are great for strengthening the body without straining it.Savasana (Corpse Pose) is a relaxing posture that helps reduce anxiety and tension during pregnancy.Breathing techniques like Ujjayi Pranayama and Nadi Shodhana are safe and beneficial during pregnancy, promoting relaxation and better oxygenation."
+      ]
+    },
+    {
+      "tag": "asthma",
+      "patterns": [
+        "Which pranayama is good for asthma?",
+        "Yoga for asthma relief",
+        "What yoga poses help with asthma?"
+      ],
+      "responses": [
+  "For asthma relief, Ujjayi Pranayama (Victorious Breath) helps to open the airways and improve lung capacity. Bhujangasana (Cobra Pose) and Setu Bandhasana (Bridge Pose) help open the chest and improve breathing.Pranayamas like Bhastrika (Bellows Breath) and Nadi Shodhana (Alternate Nostril Breathing) are effective in improving respiratory health."
+      ]
+    },
+    {
+      "tag": "diabetes",
+      "patterns": [
+        "What yoga poses are good for diabetes?",
+        "Yoga for controlling diabetes",
+        "Which pranayama helps with diabetes?"
+      ],
+      "responses": [
+"Yoga poses like Ardha Matsyendrasana (Half Lord of the Fishes Pose) and Trikonasana (Triangle Pose) help regulate blood sugar levels.Surya Namaskar (Sun Salutation) is great for boosting metabolism and improving insulin sensitivitPranayamas like Kapalbhati (Breath of Fire) and Bhastrika (Bellows Breath) help with detoxification and can aid in better blood circulation."
+      ]
+    },
+    {
+      "tag": "eye_health",
+      "patterns": [
+        "What yoga is good for eye health?",
+        "Yoga poses for eyes",
+        "Which pranayama helps with eye problems?",
+        "How can yoga help with eye diseases?"
+      ],
+      "responses": [
+        "For general eye health, you can practice **Trataka** (Candle Gazing) to improve focus and strengthen eye muscles.Pranayama techniques like **Anulom Vilom** (Alternate Nostril Breathing) help improve blood circulation to the eyes and reduce strain.Yoga poses such as **Sarvangasana** (Shoulder Stand) and **Halasana** (Plow Pose) improve the circulation around the eyes and help reduce fatigue.For **eye strain**, practice **Palming** (rubbing your palms together and gently placing them over closed eyes) to relax the eyes.For **dry eyes**, try **Shitali Pranayama** (Cooling Breath) to soothe and reduce the dryness in the eyes.If you are dealing with **cataracts**, **Trataka** and **Anulom Vilom** pranayama can help by improving focus and blood flow to the eyes.To support **poor vision**, poses like **Sarvangasana** and **Halasana** can enhance circulation to the eyes and improve vision.For **glaucoma**, practice **Sarvangasana**, **Viparita Karani** (Legs Up the Wall), and pranayamas like **Anulom Vilom** and **Bhramari** (Bee Breath) to help reduce intraocular pressure and improve overall eye health."
+      ]
+    },
+    {
+      "tag": "yoga_for_older_adults",
+      "patterns": [
+        "Which yoga poses are good for older adults?",
+        "What yoga poses are safe for elderly people?",
+        "Yoga for senior citizens",
+        "Can elderly people practice yoga?"
+      ],
+      "responses": [
+        "For older adults, gentle yoga poses like **Tadasana** (Mountain Pose), **Vrikshasana** (Tree Pose), and **Bhujangasana** (Cobra Pose) are beneficial to improve flexibility and balance.Seated poses like **Chair Pose**, **Seated Forward Bend**, and **Gentle twists** can help older adults who have limited mobility or balance issues.Pranayamas like **Nadi Shodhana** (Alternate Nostril Breathing) and **Bhramari** (Bee Breath) can help with stress relief and improve lung capacity.Avoid inversions and deep backbends if there are existing joint or spine issues. Focus on restorative poses like **Savasana** (Corpse Pose) and gentle stretches"
+      ]
+    },
+
+    {
+      "tag": "yoga_for_pregnant_women",
+      "patterns": [
+        "Which yoga poses are safe during pregnancy?",
+        "Can pregnant women practice yoga?",
+        "Yoga poses for pregnant women",
+        "What yoga poses are good for pregnancy?"
+      ],
+      "responses": [" Pregnant women can practice poses like **Cat-Cow Pose** (**Marjaryasana-Bitilasana**) to relieve back pain and improve spinal flexibility Gentle poses like **Tree Pose** (**Vrikshasana**) and **Warrior Pose** (**Virabhadrasana**) are good for improving strength and balance Breathing exercises like **Ujjayi Pranayama** and **Nadi Shodhana** (Alternate Nostril Breathing) help calm the mind and reduce anxiety Avoid poses that involve deep backbends, inversions, or lying flat on the back after the first trimester. Always consult with a doctor before practicing yoga during pregnancy."
+      ]
+    },
+    {
+      "tag": "yoga_for_students",
+      "patterns": [
+        "What yoga poses are good for students?",
+        "Yoga for students to improve focus",
+        "Yoga to reduce stress for students",
+        "Which poses can help students focus better?"
+      ],
+      "responses": [
+        "For students, poses like **Padmasana** (Lotus Pose), **Dandasana** (Staff Pose), and **Sukhasana** (Easy Pose) help with focus and concentration.Yoga poses that open up the chest, such as **Bhujangasana** (Cobra Pose) and **Setu Bandhasana** (Bridge Pose), help reduce stress and improve posture.Incorporating pranayama exercises like **Anulom Vilom** (Alternate Nostril Breathing) and **Kapalbhati** (Breath of Fire) can boost mental clarity and relieve anxiety.Regular yoga practice can improve flexibility and reduce tension, making it easier to sit for long study hours without discomfort."
+      ]
+    },
+    {
+      "tag":"yoga_for_adults",
+       "patterns": [
+        "Which yoga poses are good for adults?",
+        "Yoga for adults to stay fit",
+        "What poses help with flexibility for adults?"
+      ],
+      "responses": [
+        "Adults can benefit from poses like **Adho Mukha Svanasana** (Downward Dog), **Trikonasana** (Triangle Pose), and **Uttanasana** (Standing Forward Bend) to improve flexibility.For strength, try **Virabhadrasana** (Warrior Pose), **Utkatasana** (Chair Pose), and **Navasana** (Boat Pose). These poses engage major muscle groups.Incorporating pranayama like **Kapalbhati** and **Bhramari** can boost energy, relieve stress, and promote mental clarity for adults leading a busy lifestyle.Regular yoga practice for adults is beneficial in managing weight, improving digestion, and reducing risk factors for lifestyle-related diseases."
+      ]
+    },
+    {
+      "tag": "yoga_for_disease_free_people",
+      "patterns": [
+        "Which yoga poses are good for people who are healthy?",
+        "Yoga for disease-free people",
+        "What are the best yoga poses for healthy individuals?"
+      ],
+      "responses": [
+        "For disease-free individuals, you can perform a variety of yoga poses to maintain overall health and wellness, such as **Surya Namaskar** (Sun Salutation) to improve strength and flexibility.Incorporate more challenging poses like **Natarajasana** (Dancer Pose), **Ardha Chandrasana** (Half Moon Pose), and **Sirsasana** (Headstand) for balance and mental clarity.Pranayama techniques like **Ujjayi Pranayama** (Victorious Breath) and **Kumbhaka** (Breath Retention) can help increase stamina, lung capacity, and mental focus.To maintain a healthy body and mind, ensure a balanced routine with a combination of strength, flexibility, and breathing exercises."
+      ]
+    },
+    {
+      "tag": "precautions_during_yoga",
+      "patterns": [
+        "What precautions should I take during yoga?",
+        "Are there any safety tips for practicing yoga?",
+        "How to stay safe while doing yoga?",
+        "What should I be careful about during yoga?",
+        "Any precautions to follow before doing yoga?"
+      ],
+      "responses": [
+        "Before starting yoga, always warm up your body to avoid injury. Begin with gentle stretches and gradually increase intensity.Make sure to listen to your body. If you feel pain, stop immediately and consult a doctor or experienced yoga instructoAvoid pushing yourself too hard. Yoga is about balance and breathing, not competition. Focus on your own practicWear comfortable, breathable clothing and use a non-slip yoga mat to prevent falls or injury during poseStay hydrated but avoid heavy meals before yoga. It's best to practice yoga on an empty stomach or wait 2-3 hours after eatinAlways practice under the guidance of a certified yoga instructor, especially when you're new to yoga or trying advanced poseIf you have any pre-existing medical conditions, consult a doctor before starting any yoga practicBe mindful of your breath throughout the practice. Poor breathing techniques can lead to dizziness or hyperventilatioAvoid doing poses that put undue pressure on the neck, spine, or joints if you have existing injuries or conditionWhen doing inversions like **Sarvangasana** (Shoulder Stand) or **Sirsasana** (Headstand), make sure you are well-supported and practice under supervision."
+      ]
+    }
+  
+
+  ]
+}
